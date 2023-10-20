@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="img/Logo.webp" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om os</title>
+</head>
+    <!-- Tilføjet "rel icon" i head så min fane i browseren har logo. Så man ved hvilken fane det er -->
+    <!-- Tilføjet link til font-awsome så jeg kan få mine sociale medie logoer til at fungerer -->
+
+    <!-- Body begynder -->
+    <!-- Giver logo sin egen klasse og linker den til forsiden når man trykker på logoet -->
+    <!-- Lavet en ul for mine menupunkter. Givet dem egen klasse så jeg nemmere kan style dem. Derudover et a tag om dem alle så jeg kan linke siderne med hinadnen-->
+<body>
+    <nav class="nav-item">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/Logo.webp" alt=""/>
+            </a>  
+        </div>
+        <ul class="navbar">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="om-os.html">Om Os</a></li>
+            <li><a href="tips-og-tricks.html">Tips & Tricks</a></li>
+            <li><a href="">Netværk</a></li>
+            <li><a href="">Balancen</a></li>
+        </ul>
+    </nav>
+    <!-- Header begynder -->
+    <!-- Lavet en div til mit billede, eftfulgt er af en div med sit eget class, så jeg kan style den. Herunder er der brugt både h2, ul, li, p, input og form -->
+    <header>
+        <div class="billede-boks">
+            <img src="img/mig.webp" alt="billede af mig">
+          </div>
+      <div class="tekst-box">
+        <p>
+            <h2>
+            Hvem er jeg? 
+            </h2>
+            <ul>
+            <li>Navn: Anders Agerskov Flæng</li>
+            <li>Alder: 21 år</li>
+            <li>Uddannet Multimediedesigner</li>
+            <li>Elitehåndboldspiller i fritiden</li>
+            <li>Udvikler af HandballPro APP</li>
+            </ul>
+            <br>
+            <br>
+            <h2>Hvorfor har jeg lavet "Bøger og Bold magasinet?"</h2>
+            <br>
+            Når man jonglerer mellem studier og en krævende sport som håndbold, kan hverdagen ofte føles som en maraton. Jeg har været der, og jeg forstår de udfordringer, det medfører. Derfor har jeg valgt at dele min rejse og erfaringer i dette magasin, "Bøger og Bold," med håbet om at hjælpe andre unge, der oplever tidspres i deres travle hverdag.
+            <br>
+            <br>
+            Magasinet "Bøger og Bold" er kun til hjælp. Her deler jeg mine erfaringer, tips og tricks, der har hjulpet mig med at finde balance i en hektisk hverdag. Jeg interviewede også andre håndboldstuderende og deler deres historier om, hvordan de har håndteret tidspres og skabt succes i både sport og studier.
+            <br>
+            Dette magasin er ikke kun for håndboldstuderende; det er for alle, der ønsker at lære, hvordan de kan håndtere tidspres og opnå deres mål. Jeg tror på, at med dedikation og de rette værktøjer kan alle nå deres drømme. Og husk, "HandballPro" er her for at hjælpe dig med at lette presset, så du kan fokusere på det, der virkelig betyder noget.
+            <br>
+            <br>
+            Hvis du nogensinde står over for tvivl eller spørgsmål, kan du altid kontakte mig på mail nedenfor. Jeg er her for at dele min viden og erfaring og for at hjælpe dig med at finde svar på dine spørgsmål. Dertil vil jeg altid gerne optimere appen så den er klar til jer derude.
+            <br>
+            <br>
+            <br>
+            <form>
+                <input type="email" name="email" placeholder="Skriv email her" required>
+                <input type="text" id="myText" name="myText" placeholder="Skriv her og tryk send">
+                <input type="submit" value="Send">
+            </form>
+        </p>
+      </div>
+    </header>
+
+    <!-- Footer begynder -->
+    <!-- Lavet en ul til mine punkter til venstre. Samt givet dem eget class -->
+    <!-- Lavet li til mine sociale medier icons og sociale medier teksen. Samt eget class -->
+    <footer>
+            <div class="footer-indhold">
+                <div class="kontakt-info">
+                    <ul>
+                        <li>Kontakt</li>
+                        <li>eaa23aaf@students.eaaa.dk</li>
+                        <li>(45)+45 51 15 54 40</li>
+                        <li>Thit Jensens Gade 10 6.th</li>
+                        <li>8000 Aarhus</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <h4> Sociale Medier </h4>
+                    <ul class="social-media-icons">
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+                        </li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                    </ul>
+               </div>
+            </div>
+        </footer>
+</body>
+</html>

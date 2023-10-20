@@ -1,0 +1,253 @@
+/* Gør så min navigationsbox fylder helt ud, så der ikke er mellemrum ude i siderne. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/* Sætter logo og menupunkter til at være i rækkefølge vandret af hinanden og de er centreret mod venstre i boksen. Samt at de er center align. */
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    }
+/* Ændre farven på boksen og skrift på på min navigationsbar */
+nav {
+    background-color: #809ed3;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    max-width: 100%;
+    height: 300px;
+    font-weight: bold;
+    border: 2px solid #000;
+    }
+/* Sætter mine menupunkter til højre i boksen */
+.navbar {
+    padding: 0 10%;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    margin-right: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+  /* Tilføjer tekstfarve til punkterne */
+.navbar a {
+    text-decoration: none;
+    color: #000; 
+    font-size: 30px;
+    }
+/* Ændre logo */ 
+.logo img {
+    height: auto;
+    width: 250px;
+    margin-left: 100px;
+    padding-bottom: 45px;
+    }
+/* Ændre mine menupunkter så de ændre farve ved hover */
+.navbar li a {
+    text-decoration: none;
+    color: #000; /* Standardtekstfarve */
+    transition: color 0.3s; /* Tilføj en glidende overgangseffekt på tekstfarven */
+    }
+    
+.navbar li a:hover {
+    color: orange; /* Ændre tekstfarven ved hover */
+    }
+       
+
+   /* Header begynder her */ 
+   /* Styler bla min baggrundsfarve her */ 
+header {
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+/* Styler boksen, højde, bredde, farve og sætter en border omkring boksene */ 
+.box {
+    width: 550px; /* Bredden på boksen */ 
+    height: 910px; /* Højden på boksen */
+    background-color: orange; /* Boksens baggrundsfarve (orange) */
+    border: 2px solid #000; /* Border farve (orange) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    /* Styler mine billeder så de er samme størrelse og står i midten af boksen */
+    width: 450px;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Hover-effekt for knappen */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Ændre baggrundsfarven ved hover */
+}
+/* Style for submit-knappen */
+input[type="submit"] {
+    background-color: #809ed3; /* Baggrundsfarve */
+    color: #000; /* Tekstfarve */
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 250px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+}
+/* Hover-effekt for knappen */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Ændre baggrundsfarven ved hover */
+}
+/* Style for submit-knappen */
+input[type="submit"] {
+    background-color: #809ed3; /* Baggrundsfarve */
+    color: #000; /* Tekstfarve */
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; 
+    margin-left: 110px;
+}
+
+/* Main starter her */
+h2 {
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 20px;
+}
+/* Styling af den blå boks */ 
+.app-box {
+    width: 1903px;
+    height: 1000px;
+    background-color: #809ed3;
+    border: 2px solid #000;
+}
+/* Sætter min container til flex som indeholder det hele i main her */ 
+.container {
+    display: flex;
+}
+/* Styling af tekst */ 
+.text {
+    flex: 1;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+/* Styling af app ikon billedet */
+.image {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+/* Styling af billede */ 
+.image img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: 1100px;
+    margin-top: 50px;
+}
+
+/* Footer begynder her */
+/* Flytter min social class. Hvor jeg har sociale medier i */
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    list-style-type: none;
+    }
+/* Her styler jeg mine sociale medier, med a tag rundt om. Så sociale medier tekst er ikke med her */
+.social a {
+    color: inherit;
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    opacity: 0.75;
+    position: static;
+    }
+/* Sætter en hover-effekten på sociale medier ikoner */
+.social a:hover {
+        opacity: 0.9;
+        transform: scale(1.5);
+    }
+/* Styler selve footeren, bla baggrundsfarve og tilføjer kant rundt om boksen bla */
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #acacac;
+    color: #000;
+    text-align: left;
+    display: flex;
+    list-style-type: none;
+    border: 2px solid #000;
+    }
+    /* Styler tekst størrelsen i min footer */
+.footer-content {
+    font-size: 20px;
+    }
+.footer-indhold {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+    
+/* Styler min UL med 5 *LI */ 
+.kontakt-info {
+    display: flex;
+    height: 150px;
+    width: auto;
+    font-size: 20px;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    ul {
+        list-style-type: none;
+    }
+/* Rykker social media icons til row, samt fjerner prikkerne ved dem */
+    ul.social-media-icons {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+/* Styler min social medier tekst */
+    h4 {
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    
+  

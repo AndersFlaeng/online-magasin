@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="img/Logo.webp" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bold og bøger</title>
+</head>
+    <!-- Tilføjet "rel icon" i head så min fane i browseren har logo. Så man ved hvilken fane det er -->
+    <!-- Tilføjet link til font-awsome så jeg kan få mine sociale medie logoer til at fungerer -->
+
+
+    <!-- Body begynder -->
+    <!-- Giver logo sin egen klasse og linker den til forsiden når man trykker på logoet -->
+    <!-- Lavet en ul for mine menupunkter. Givet dem egen klasse så jeg nemmere kan style dem. Derudover et a tag om dem alle så jeg kan linke siderne med hinadnen-->
+    <body>
+        <nav class="nav-item">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo.webp" alt=""/>
+                </a>  
+            </div>
+            <ul class="navbar">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="om-os.html">Om Os</a></li>
+                <li><a href="tips-og-tricks.html">Tips & Tricks</a></li>
+                <li><a href="#">Netværk</a></li>
+                <li><a href="#">Balancen</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Begyndt header -->
+        <header>
+            <h2>Balancen mellem bold og bøger</h2>
+                <img id="billede1" src="img/balance.webp" alt="balance">
+        
+
+
+        </header>
+
+        <!-- Begyndt main -->
+        <main class="box">
+            <!-- Har sat det hele i en div og derefter opdelt de 3 forskellige punkter i 3 diver. Billederne er alle klikbar dog kun den til venstre som går til en side -->
+            <div class="container">
+                <div class="image-container">
+                    <a href="tips-og-tricks.html">
+                    <img src="img/tipsbox.webp" alt="Billede 1">
+                    </a>
+                    <p>Har du også en travl og presset hverdag? Med de rigtige strategier og disciplin kan du opnå dine mål uden at føle dig overvældet. Vil du gerne læse mere om nogle tips og tricks. </p>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="tips-og-tricks.html">
+                    <input type="submit" value="Læs mere">
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="#">
+                    <img src="img/venner.webp" alt="Billede 2">
+                    </a>
+                    <p>Håndbold er meget mere end bare håndbold, her opbygges stærke venskaber og sociale færdigheder. Værdier som tit forbliver hos spilleren langt efter håndbolden også. Vil du gerne lære mere om den sociale betydning ved håndbolden. </p>
+                    <br>
+                    <a href="#">
+                    <input type="submit" value="Læs mere">
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="#">
+                    <img src="img/studie-handball.webp" alt="Billede 3">
+                    </a>
+                    <p>At balancere mellem håndbold og studier kan være en udfordrende opgave, men det er afgørende for et succesfuld ungdomsliv. For at finde den rette balance er det vigtigt at planlægge og prioritere. Vil du gerne lære mere om at finde den rette balance og høre råd fra tidligere personer. </p>
+                    <br>
+                    <a href="#">
+                    <input type="submit" value="Læs mere">
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer begynder -->
+        <!-- Lavet en ul til mine punkter til venstre. Samt givet dem eget class -->
+        <!-- Lavet li til mine sociale medier icons og sociale medier teksen. Samt eget class -->
+        <footer>
+            <div class="footer-indhold">
+                <div class="kontakt-info">
+                    <ul>
+                        <li>Kontakt</li>
+                        <li>eaa23aaf@students.eaaa.dk</li>
+                        <li>(45)+45 51 15 54 40</li>
+                        <li>Thit Jensens Gade 10 6.th</li>
+                        <li>8000 Aarhus</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <h4> Sociale Medier </h4>
+                    <ul class="social-media-icons">
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+                        </li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                    </ul>
+               </div>
+            </div>
+        </footer>
+    </body>
+</html>
